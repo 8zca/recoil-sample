@@ -22,6 +22,10 @@ const Layout: NextPage<Props> = ({ children, title = '' }) => (
         <Link href='/todo'>
           <a>Todo</a>
         </Link>
+        {' '}
+        <Link href='/users'>
+          <a>Users</a>
+        </Link>
       </div>
       {children}
     </div>
